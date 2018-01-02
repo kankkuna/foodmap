@@ -1,12 +1,12 @@
 
 body {
-  background-color: #2B2B2B;
+  background-color: #F9D0BC;
   font-family: 'Assistant', sans-serif;
 }
 
 .title1 {
   text-align: center;
-  color: #D77929;
+  color: #2B2B2B;
 }
 
 h1 {
@@ -21,7 +21,7 @@ hr {
   width: 15px;
   height: 15px;
   border: white 3px solid;
-  background-color: #2B2B2B;
+  background-color: #F9D0BC;
 }
 
 .one {
@@ -53,6 +53,7 @@ ul li {
 button {
   width: 100%;
   margin-bottom: 10px;
+  color: black;
 }
 
 
@@ -65,4 +66,20 @@ button {
   float: left;
   width: 50%;
 
+}
+
+.pic {
+  background-image: url(../assets/images/fondo-modal3.jpg);
+  color: black;
+  font-size: 30px;
+  background-size: 100%;
+
+}
+
+.modal-header {
+  text-align: center;
+}
+
+.modal-content {
+  margin-top: 50%;
 }

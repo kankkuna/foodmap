@@ -4,7 +4,7 @@ $(document).ready(function(){
 
       setTimeout(function() {
         $('#splash2').fadeOut(900, function() {
-          window.location.href = 'index1.html';
+          window.location.href = 'views/index1.html';
         });
       }, 5000);
 
