@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: #2B2B2B;
   font-family: 'Assistant', sans-serif;
 }
 
@@ -14,24 +14,16 @@ body {
   top:0;
   left: 0;
   bottom: 0;
+  right: 0;
   width: 100%;
   background-color: white;
 }
 
-/*img{
-  width: 100%;
-  height: 100%;
-}*/
 
-.font {
+h1{
   color: #D77929;
   text-align: center;
-  font-size: 50px;
+  font-size: 300%;
+  margin-top: 80%;
 
-}
-
-input {
-  background-color: black;
-  border: none;
-  
 }

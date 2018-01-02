@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Assistant:300|Libre+Franklin:300|Mukta+Mahee:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main1.css">
   </head>
   <body>
@@ -14,14 +14,15 @@
         <h1>Foodmap</h1>
       </div>
       <div class="container-fluid">
-        <div class="Square1"></div>
         <hr>
-        <div class="square2"></div>
+        <div class="Square one"></div>
+        <div class="Square two"></div>
       </div>
+    </header>
       <div class="map1">
         <img class="map1 col-md-12" src="assets/images/map1.jpeg" alt="">
       </div>
-    </header>
+
 
     <div class="title1">
       <h2>Comida cerca de ti</h2>
@@ -31,7 +32,7 @@
     <div class="container">
       <div class="row">
         <div class="dropdown col-xs-12">
-          <button class="btn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Tipos de Comida <span class="glyphicon glyphicon-search pull-right" aria-hidden="true"></span>
+          <button class="btn dropdown-toggle" type="button" id="dropdownMenu1" data-dismiss="modal" data-toggle="dropdown" aria-haspopup="true" aria-label="close" aria-expanded="true">Elegir Tipo de Comida<span class="glyphicon glyphicon-search pull-right" aria-hidden="true"></span>
           </button>
           <ul class="dropdown-menu listado" aria-labelledby="dropdownMenu1">
             <li><a href="#">Criolla</a></li>
@@ -48,23 +49,48 @@
       <div class="row">
         <div class="filtros col-xs-12">
           <div class="criolla">
-            <img class="col-xs-10 col-xs-offset" src="assets/images/criolla/aji-de-gallina.jpg" alt="">
+            <img id="change" src="assets/images/criolla/aji-de-gallina.jpg" alt="">
+            <img src="assets/images/criolla/lomo-saltado.jpg" alt="">
           </div>
-          <div class="italiana"><img class="col-xs-8 col-xs-offset-1" src="assets/images/italiana/alfredo.jpg" alt="">
+          <div class="italiana">
+            <img src="assets/images/italiana/alfredo.jpg" alt="">
+            <img src="assets/images/italiana/lasagna.jpg" alt="">
+            <img src="assets/images/italiana/ravioles.jpg" alt="">
+            <img src="assets/images/italiana/spaghetti.jpg" alt="">
           </div>
-          <div class="italiana"><img src="assets/images/italiana/canelones.jpg" alt="">
+          <div class="selvativa">
+            <img src="assets/images/selvatica/chaufa-cecina.jpg" alt="">
+            <img src="assets/images/selvatica/tacacho-con-cecina.jpg" alt="">
           </div>
-          <div class="marina"><img src="assets/images/marina/causa.jpg" alt="">
+          <div class="mexicana">
+            <img src="assets/images/mexicana/posole.jpg" alt="">
+            <img src="assets/images/mexicana/tacos.jpg" alt="">
           </div>
-          <div class="mexicana"><img src="assets/images/mexicana/taco-frijol.jpg" alt="">
+          <div class="italiana">
+            <img src="assets/images/italiana/canelones.jpg" alt="">
+            <img src="assets/images/italiana/pizza.jpg" alt="">
+            <img src="assets/images/italiana/salmon.jpg" alt="">
           </div>
-          <div class="selvativa"><img src="assets/images/selvatica/paiche.jpg" alt="">
+          <div class="marina">
+            <img src="assets/images/marina/causa.jpg" alt="">
+            <img src="assets/images/marina/arroz-al-olivo.jpg" alt="">
+            <img src="assets/images/marina/choritos.jpg" alt="">
+            <img src="assets/images/marina/rissoto.jpg" alt="">
           </div>
-          <div class="criolla"><img src="assets/images/criolla/tallarin-saltado.jpg" alt="">
+          <div class="mexicana">
+            <img src="assets/images/mexicana/taco-frijol.jpg" alt="">
           </div>
-          <div class="marina"><img src="assets/images/marina/leche.jpg" alt="">
+          <div class="selvatica">
+            <img src="assets/images/selvatica/paiche.jpg" alt="">
+            <img src="assets/images/selvatica/juane.jpg" alt="">
           </div>
-          <div class="mexicana"><img src="assets/images/mexicana/posole.jpg" alt="">
+          <div class="criolla">
+            <img src="assets/images/criolla/tallarin-saltado.jpg" alt="">
+            <img src="assets/images/criolla/rocoto-relleno.jpg" alt="">
+          </div>
+          <div class="marina">
+            <img src="assets/images/marina/leche.jpg" alt="">
+            <img src="assets/images/marina/arroz.jpg" alt="">
           </div>
         </div>
       </div>

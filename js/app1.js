@@ -1,3 +1,5 @@
+
+
 $(document).ready(function(){
     $('ul.listado li a').click(function() {
     var textoFiltro = $(this).text().toLowerCase().replace(/\s/g,"-");
@@ -13,4 +15,8 @@ $(document).ready(function(){
       });
     } return false;
   });
+});
+
+$("criolla").mouseover(function(){
+  $("#change").css("opacity", "0.2");
 });
